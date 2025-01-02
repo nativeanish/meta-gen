@@ -1,0 +1,26 @@
+{
+  "name": "meta-gen",
+  "version": "0.0.1",
+  "description": "TypeScript utility for generating document metadata",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "meta-tag-generator",
+    "metadata",
+    "social-share",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
